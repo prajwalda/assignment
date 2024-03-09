@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .MuiDrawer-root {
+    display: none;
+  }
+}
+
+/* Inside your CSS file */
+.activity-container {
+  margin-top: 1rem; /* Adjust the margin as needed */
+}
+
+@media (max-width: 960px) {
+  .activity-container {
+    margin-top: 0; /* Reset margin for tablet and smaller screens */
+  }
+}

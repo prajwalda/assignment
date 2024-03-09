@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person{
+    display: flex;
+    width: 352px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.input{
+    width: 352px;
+    height: 35px;
+    font-size: 15px;
+}

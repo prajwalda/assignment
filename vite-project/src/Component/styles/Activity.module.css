@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    margin-top: 2vh;
+}
+
+.tbox{
+    display: flex;
+    background: #161E54;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.tbox  p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.align{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.align > button{
+    width: 139px;
+    height: 38px;
+    background-color: red;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+}

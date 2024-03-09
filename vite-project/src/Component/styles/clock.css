@@ -1,0 +1,37 @@
+.time-wrapper{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.time-input{
+    border: none;
+    background-color: #DCD8D8;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.time-btn{
+    height: 38px;
+    width: 139px;
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;   
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.time-base{
+    font-size: 13px;
+}
+
+.time-p{
+    font-size: 15px;
+    font-weight: lighter;
+}
